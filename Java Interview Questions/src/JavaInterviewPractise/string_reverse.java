@@ -11,5 +11,7 @@ public class string_reverse {
 			rev = rev + s.charAt(i);
 		}
 		System.out.println(rev);
+		StringBuffer sf = new StringBuffer(s);
+		System.out.println(sf.reverse());
 	}
 }
