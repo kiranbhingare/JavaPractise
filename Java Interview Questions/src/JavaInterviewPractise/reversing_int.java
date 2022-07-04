@@ -9,7 +9,7 @@ public class reversing_int {
 			rev = rev * 10 + num % 10;
 			num = num / 10;
 		}
-		System.out.println(rev);
+		System.out.println("reversed integer is: "+ rev);
 
 	}
 
